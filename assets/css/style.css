@@ -1,0 +1,50 @@
+.btn {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(red, purple, blue);
+    color: black;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s;
+    animation: btn 10s infinite;
+}
+
+.btn:hover {
+    background: white;
+    cursor: pointer;
+    transition: 1s;
+}
+@keyframes btn{
+    0%{
+        background-color: teal;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: orange;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: green;
+    }
+    50%{
+        background-color: aqua;
+    }
+    60%{
+        background-color: blue;
+    }
+    70%{
+        background-color: purple;
+    }
+    80%{
+        background-color: black;
+        color: white;
+    }
+    90%{
+        background-color: hotpink;
+    }
+}
